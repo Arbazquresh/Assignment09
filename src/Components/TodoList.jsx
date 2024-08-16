@@ -38,7 +38,7 @@ export const TodoList = () => {
     <Card>
       <CardContent>
         <Grid container spacing={2}>
-        <Grid sx={{bgcolor:clr, marginTop:2}} item xs={2}></Grid>
+          <Grid sx={{ bgcolor: clr, marginTop: 2 }} item xs={2}></Grid>
           <Grid item xs={6}>
             <TextField
               value={text}
@@ -59,7 +59,7 @@ export const TodoList = () => {
             <Grid item xs={3} sx={{ textAlign: "center" }}>
               <h1>{item}</h1>
               <Button onClick={() => handleDelete(item)} variant="contained">
-                Delete
+                Deletedddd
               </Button>
             </Grid>
           ))}
